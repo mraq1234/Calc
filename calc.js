@@ -46,8 +46,6 @@ function eval_func() {
     
 }
 
-
-
 function func_func() {
   /*  if (bufor == '' && wyrazenie == '' && this.id != '-') {
         return;
