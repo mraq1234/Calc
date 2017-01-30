@@ -1,0 +1,76 @@
+* {
+    /* border: 1px solid black; */
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+body {
+    margin: 0;
+}
+.container {
+ /*   width: 450px;
+    margin: 0 auto;
+  */
+  width: 450px;
+	height: auto;
+	
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	
+	background: #9dd2ea;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);  
+}
+ .disp {
+     width: 410px;
+     height: 50px;
+     margin: 10px auto;
+    /* position: relative;*/
+ }
+.line {
+    width: 100%;
+}
+.clear, .btn, .func, .point, .equal, .plus {
+    float: left; 
+}
+.btn, .func, .point {
+    width: 95px;
+    height: 60px;
+    position: relative;
+    margin: 3px;
+}
+.btn {
+    background: lightgray;
+}
+.func, .plus, .point {
+    background: #acacac;
+}
+.clear {
+    background: red;
+}
+.equal {
+    background: yellowgreen;
+}
+.clear, .equal, .plus {
+    width: 197px;
+    height: 60px;
+    position: relative;
+    margin: 2px;
+}
+span.ukryty {
+    display: none;
+}
