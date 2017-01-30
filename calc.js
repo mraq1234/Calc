@@ -4,6 +4,8 @@ var wyswietlacz = document.getElementById('wyswietlacz');
 var funkcja = false;
 
 var przyciski = document.querySelectorAll('div.key');
+
+//pętla przypisująca obsługę zdarzeń
 for (i = 0; i < przyciski.length; i++) {
     klasa = przyciski[i].className.replace('key', '').trim();
     if (klasa === 'btn') {
@@ -44,7 +46,7 @@ function eval_func() {
     
 }
 
-//komentarz testowy ...
+
 
 function func_func() {
   /*  if (bufor == '' && wyrazenie == '' && this.id != '-') {
