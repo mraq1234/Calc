@@ -43,8 +43,8 @@ function eval_func() {
     }
     
 }
+//tutaj będzie obsługa +/-
 
-//komentarz testowy ...
 
 function func_func() {
   /*  if (bufor == '' && wyrazenie == '' && this.id != '-') {
